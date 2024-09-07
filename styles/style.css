@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* место для вашего кода */
-@import url(/fonts/fonts.css);
+@import url(../fonts/fonts.css);
 body {
   width: 1100px;
 }
@@ -34,7 +34,7 @@ body {
   display: inline;
 }
 .header__item:nth-child(2)::after, .header__item:nth-child(2)::before {
-  content: url(/images/list_marker.svg);
+  content: url(../images/list_marker.svg);
   margin: 0 12px;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .about {
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   width: 1100px;
   height: 758px;
   background-position: center center;
@@ -165,21 +165,21 @@ body {
 }
 
 .lots__card_first {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.589)), url(/images/card-lot-01.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.589)), url(../images/card-lot-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .lots__card_second {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.589)), url(/images/card-lot-02.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.589)), url(../images/card-lot-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .lots__card_third {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.589)), url(/images/card-lot-03.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.589)), url(../images/card-lot-03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
