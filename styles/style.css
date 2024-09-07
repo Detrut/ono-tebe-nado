@@ -39,7 +39,7 @@ body {
 }
 
 .header__logo {
-  margin-left: 36px;
+  margin-left: 40px;
   margin-right: 192px;
 }
 
@@ -69,7 +69,7 @@ body {
   justify-content: space-between;
 }
 
-.about__title_wrapper {
+.about__titles_wrapper {
   display: flex;
   flex-direction: column;
   margin: 164px 70px 0;
@@ -80,18 +80,18 @@ body {
   letter-spacing: 21px;
 }
 
-.about__left {
+.about__title_left {
   display: flex;
   margin-left: -22px;
 }
 
-.about_center {
+.about__title_center {
   display: flex;
   justify-content: center;
   padding-right: 30px;
 }
 
-.about_right {
+.about__title_right {
   display: flex;
   flex-direction: row-reverse;
   margin-left: 38px;
@@ -164,21 +164,21 @@ body {
   padding-bottom: 12px;
 }
 
-.lots_first {
+.lots__card_first {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.589)), url(/images/card-lot-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
-.lots_second {
+.lots__card_second {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.589)), url(/images/card-lot-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
-.lots_third {
+.lots__card_third {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.589)), url(/images/card-lot-03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
