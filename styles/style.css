@@ -241,6 +241,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 50px;
+  padding-bottom: 88px;
 }
 
 .footer__about {
