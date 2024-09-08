@@ -1,12 +1,15 @@
 @charset "UTF-8";
 /* место для вашего кода */
-@import url(../fonts/fonts.css);
 body {
   width: 1100px;
 }
 
 .text-decoration-none {
   text-decoration: none;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000;
 }
 
 .header {
@@ -27,8 +30,8 @@ body {
   width: 206px;
 }
 
-.border-bottom {
-  border-bottom: 1px solid #000;
+.header__mail {
+  display: block;
 }
 
 .header__item {
@@ -42,6 +45,7 @@ body {
 .header__logo {
   margin-left: 40px;
   margin-right: 192px;
+  display: block;
 }
 
 .main {
@@ -241,7 +245,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 50px;
-  padding-bottom: 88px;
+  padding-bottom: 84px;
 }
 
 .footer__about {
