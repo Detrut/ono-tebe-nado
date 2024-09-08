@@ -42,7 +42,7 @@ body {
   margin: 0 12px;
 }
 
-.header__logo {
+.header__wrapper {
   margin-left: 40px;
   margin-right: 192px;
   display: block;
