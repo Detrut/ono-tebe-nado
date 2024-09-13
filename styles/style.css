@@ -19,7 +19,7 @@ body {
   font-family: Raleway;
   font-weight: normal;
   font-size: 18px;
-  padding-top: 68px;
+  padding-top: 60px;
 }
 
 .header__links {
@@ -49,8 +49,8 @@ body {
 }
 
 .header__logo {
-  width: 124px;
-  height: 94px;
+  width: 134px;
+  height: 102px;
 }
 
 .main {
@@ -110,6 +110,7 @@ body {
 .about__subtitle {
   font-size: 24px;
   font-weight: normal;
+  word-spacing: 12px;
 }
 
 .about__wrapper {
