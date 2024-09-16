@@ -32,10 +32,6 @@ body {
     line-height: 24px;
 }
 
-.header__mail {
-    display: block;
-}
-
 .header__item {
     display: inline;
     &:nth-child(2)::after,
@@ -260,10 +256,6 @@ body {
 
 .footer__list {
     list-style: none;
-}
-
-.footer__adress {
-    width: 206px;
 }
 
 .footer__links {
